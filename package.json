@@ -1,0 +1,21 @@
+{
+  "name": "parcel-vue-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:SotaSuzuki/parcel-vue-starter.git",
+  "author": "SotaSuzuki <3.3sota.suzuki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html -d dist",
+    "build": "parcel build src/index.html -d build"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^1.0.0",
+    "parcel-bundler": "^1.7.0",
+    "vue-template-compiler": "^2.5.16"
+  },
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-hot-reload-api": "^2.3.0"
+  }
+}
